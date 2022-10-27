@@ -10,6 +10,9 @@ export class CatalogoComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    
   }
 
+
+  
 }

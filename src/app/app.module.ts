@@ -15,6 +15,7 @@ import { HomeComponent } from './home/home.component';
 import { CatalogoComponent } from './catalogo/catalogo.component';
 import { ABMComponent } from './abm/abm.component';
 import { ContactosComponent } from './contactos/contactos.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { ContactosComponent } from './contactos/contactos.component';
     ContactosComponent
   ],
   imports: [
+    FormsModule,
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
@@ -34,7 +36,8 @@ import { ContactosComponent } from './contactos/contactos.component';
     MatButtonModule,
     MatSidenavModule,
     MatIconModule,
-    MatListModule
+    MatListModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
